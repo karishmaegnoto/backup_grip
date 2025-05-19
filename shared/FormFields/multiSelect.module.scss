@@ -1,0 +1,113 @@
+.multiSelect {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.header {
+  padding: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  border: 1px solid #b2b6bd;
+  height: calc(3rem + 2px);
+  line-height: 2.5;
+  color: #595d6b;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: Manrope, sans-serif;
+  padding: 16px 9px 0px !important;
+}
+
+.arrow {
+  font-size: 12px;
+}
+
+.dropdownContent {
+  border-top: 1px solid #ccc;
+  border: 1px solid #eee;
+  border-radius: 0;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: 99;
+  background: #fff;
+}
+
+.search_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 36px;
+  position: relative;
+}
+.searchInputIcon {
+  color: rgb(153, 153, 153);
+  opacity: 0.7;
+  position: absolute;
+  top: 16px;
+  z-index: 999;
+  left: 23px;
+  background: #ffffff;
+}
+.searchInput {
+  width: 90% !important;
+  padding: 10px !important;
+  border: 1px solid lightGray;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+  height: 36px !important;
+  margin-top: 20px;
+  padding-left: 34px !important;
+}
+
+.optionList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.option {
+  padding: 8px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: var(--text-dark);
+  font-size: 13px;
+  font-weight: 700;
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.selected {
+  background-color: #e6f7ff;
+}
+
+.checkmark {
+  color: #1890ff;
+}
+
+.noOptions {
+  margin: 20px 20px;
+}

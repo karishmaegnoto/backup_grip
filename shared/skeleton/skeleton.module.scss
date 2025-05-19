@@ -1,0 +1,28 @@
+.skeleton {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0; // Default skeleton background color
+  border-radius: 4px;
+  animation: pulse 1.5s ease-in-out infinite;
+  color: white;
+
+  &.rounded {
+    border-radius: 50%;
+  }
+
+  &.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}

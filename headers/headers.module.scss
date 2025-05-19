@@ -1,0 +1,110 @@
+.crm_header {
+  display: flex;
+  padding: 10px 20px 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border: 0px solid #dbdcdf;
+  background: #fff;
+  .crm_header_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .side_panel_action {
+      display: flex;
+      padding: 8px;
+      align-items: center;
+      gap: 10px;
+      border-radius: 0px 6px 6px 0px;
+      background: #16a2b9;
+    }
+    .breadcrumb {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      color: #12182b;
+      font-family: "Manrope", sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      span {
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+      }
+    }
+  }
+  .crm_header_right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .crm_header_action {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .user_profile_menu {
+      position: absolute;
+      display: flex;
+      padding: 14px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      align-self: stretch;
+      right: 30px;
+
+      width: 210px;
+      transform: translateY(20%);
+      opacity: 0;
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+      visibility: hidden;
+      background: var(--app-white);
+      z-index: 99;
+
+      box-shadow: 0px 1px 20px #0000001a;
+      border: 1px solid var(--app-border);
+      border-radius: 10px;
+      li {
+        display: flex;
+        width: 100%;
+        a {
+          display: flex;
+          min-height: 36px;
+          padding: 4px 14px;
+          align-items: center;
+          gap: 6px;
+          align-self: stretch;
+          font-size: 13px;
+          font-weight: 600;
+          color: #000;
+          width: 100%;
+          border-radius: 4px;
+          text-decoration: none;
+          &:hover {
+            background: #e7f5f8;
+          }
+        }
+        .active {
+          background: #e7f5f8;
+        }
+      }
+    }
+    .user_profile_div {
+      &:hover {
+        .user_profile_menu {
+          display: flex;
+          transform: translateY(0);
+          opacity: 1;
+          visibility: visible;
+          z-index: 10 !important;
+        }
+      }
+    }
+  }
+}
