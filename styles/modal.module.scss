@@ -1,0 +1,62 @@
+.headerSection {
+  text-align: center;
+}
+.share_lead_head {
+  margin-bottom: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  align-content: center;
+  flex-direction: column;
+  svg {
+    background: #f6f7f7;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+  }
+  h2 {
+    color: #131416;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.428571;
+    color: #131416;
+    font-family: "Manrope", sans-serif;
+  }
+}
+.modalTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.lead_ids {
+  margin-bottom: 25px;
+}
+
+.share_model_header {
+  margin: 0px 0px;
+}
+.modalDescription {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-dark);
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.modalDescription_sub {
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.buttonSection {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

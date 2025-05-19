@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+:root {
+  --dark-blue: #002f56;
+  --dark-red: #f06548;
+  --theme-black: #000000;
+  --blue: #0a66c2;
+  --light-blue: #16a2b9;
+  --light-light-blue: #3498db;
+  --green: #86b884;
+  --dark-green: #86b88433;
+  --light: #ebebec;
+  --light-gray: #d3d3d3;
+  --theme-dark: #474747;
+  --table-gray: #f4f5f9;
+  --td-gray: #eee;
+  --text-dark: #131416;
+  --white: #ffffff;
+  --text-black: #12182b;
+  --app-white: #ffffff;
+  --app-border: #dee0e3;
+  --dark-bg: #16a2b91a;
+  --light-border-blue: #a2dae3;
+  --light-bg: #e7f5f8;
+  --boder: #dbdcdf;
+  --sidebar-bg: #f6f8fa;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--theme-dark);
+  font-size: 15px;
+}
+ul {
+  padding-left: 0px;
+}
+.grip_crm {
+  display: flex;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  align-items: flex-start;
+  position: relative;
+}
+.right_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+.pointer-not-allowed {
+  cursor: not-allowed !important;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.pagination-active {
+  background-color: #9ebfed !important;
+}
+.right_main_div {
+  display: flex;
+  width: 100%;
+  min-width: 100%;
+}
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+
+.flatpickr-months .flatpickr-month {
+  background: var(--light-blue) !important;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  background: var(--light-blue) !important;
+}
+
+.flatpickr-weekdays {
+  background: var(--light-blue) !important;
+}
+
+span.flatpickr-weekday {
+  background: var(--light-blue) !important;
+}
+.flatpickr-day.selected {
+  background: var(--light-blue) !important;
+}
+
+span.flatpickr-weekday {
+  color: #ffffff !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.flatpickr-input {
+  background-color: var(--app-white) !important;
+}
+
+.flat-picker-icon {
+  position: absolute;
+  top: 15px;
+  right: 8px;
+}
+.relative {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.modal-header .btn-close {
+  font-size: 12px !important;
+}
+.close_filter {
+  display: flex;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+}
+.modal-title {
+  font-size: 18px !important;
+}
+.custom_modal {
+  .modal-body {
+    padding: 50px;
+    h4 {
+      color: var(--text-dark);
+      font-size: 15px;
+      font-weight: 700;
+      margin: 10px 0px 15px;
+    }
+    p {
+      color: var(--text-dark);
+    }
+    .custom_cancel_btn {
+      background: var(--white) 0% 0% no-repeat padding-box;
+      border: 1px solid var(--text-dark);
+      border-radius: 6px;
+      color: var(--text-dark);
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 0px;
+      margin-right: 0px;
+    }
+    .custom_submit_btn {
+      background: var(--text-dark) 0% 0% no-repeat padding-box;
+      border-radius: 6px;
+      color: var(--white);
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid var(--text-dark);
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+  }
+}
+.form_select {
+  label {
+    transform: scale(0.85) translateY(-7px);
+    opacity: 1 !important;
+    font-weight: 600 !important;
+  }
+}
+.actives {
+  display: none !important;
+}
+.error_msg {
+  position: absolute;
+  bottom: -18px;
+  font-size: 12px;
+  color: var(--dark-red);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+/* ============= RESPONSIVE ============= */
+
+@media screen and (max-width: 1680px) {
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 375px) {
+}

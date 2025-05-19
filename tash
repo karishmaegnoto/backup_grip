@@ -1,0 +1,250 @@
+[33mcommit 4bfb286cace1a8cc7a8b96ac0719966abb907d4d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/karishma/add-lead/18-04-2025-v2[m[33m, [m[1;31morigin/development[m[33m, [m[1;32mdevelopment[m[33m)[m
+Author: karishma002 <karishma.s@egnoto.com>
+Date:   Fri Apr 18 18:45:22 2025 +0530
+
+    working on database
+
+[33mcommit 9875432cfd006efec62024d01e9741023bc73933[m[33m ([m[1;32mfeature/karishma/add-lead/17-04-2025[m[33m)[m
+Merge: 048b574 6760cc8
+Author: VishalGotherwal <87850305+VishalGotherwal@users.noreply.github.com>
+Date:   Thu Apr 17 13:51:40 2025 +0530
+
+    Merge pull request #185 from VishalGotherwal/bugfix/karishma/add-lead/17-04-2025
+    
+    Add lead fix
+
+[33mcommit 6760cc8114d8782e73daf2d9363f8537e81099bb[m
+Author: karishma002 <karishma.s@egnoto.com>
+Date:   Thu Apr 17 12:47:18 2025 +0530
+
+    working on bugs in fetching data
+
+[33mcommit 048b5740667b1945d25812b0da59700f564ecae6[m
+Merge: 9436a8f d66ac6e
+Author: karishmaegnoto <karishma.s@egnoto.com>
+Date:   Wed Apr 16 18:41:59 2025 +0530
+
+    Merge pull request #184 from VishalGotherwal/feature/karishma/view-lead/16-04-2025
+    
+    worked on fetching data
+
+[33mcommit d66ac6e5a93113499d946b04ef4034cdcc1a9f58[m[33m ([m[1;32mfeature/karishma/view-lead/16-04-2025[m[33m)[m
+Author: karishma002 <karishma.s@egnoto.com>
+Date:   Wed Apr 16 18:17:15 2025 +0530
+
+    worked on fetching data
+
+[33mcommit 7b4ed7ba622935a848d320eca1fcbc3baf72baed[m
+Author: karishma002 <karishma.s@egnoto.com>
+Date:   Wed Apr 16 12:40:06 2025 +0530
+
+    working on icon to open the url
+
+[33mcommit 1aa9538f973994cdfb145e0c8b66e69921939aa6[m[33m ([m[1;32mfeature/karishma/add-lead/15-04-2025[m[33m)[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Tue Apr 15 18:37:09 2025 +0530
+
+    worked on navigation
+
+[33mcommit 2857a3d7107b5addd80556dfd70f78a9e98099eb[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Tue Apr 15 18:14:12 2025 +0530
+
+    Worked on navigation add-lead, view-lead, edit-lead
+
+[33mcommit 52636dfe7856e5cb550d2c9d386acd23fa691654[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Tue Apr 15 15:17:55 2025 +0530
+
+    worked on add-lead navigation
+
+[33mcommit 840f26c6cd4f57ceb6eaf49fd42ca99a8f534d5c[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Tue Apr 15 12:57:03 2025 +0530
+
+    worked on navigation
+
+[33mcommit a50ffe50c00a6a0833c41361d8cd775c34be1911[m[33m ([m[1;32mfeature/karishma/add-lead/14-04-2025[m[33m)[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Mon Apr 14 18:36:27 2025 +0530
+
+    worked on add-lead
+
+[33mcommit 69b564946f4e881a3745042e5ffc19b0c2118f06[m[33m ([m[1;32mfeature/karishma/add-lead/12-04-2025[m[33m)[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Sat Apr 12 18:17:00 2025 +0530
+
+    worked on email or phone validation
+
+[33mcommit 9436a8fd0b91102a2d16e5dbe7501d478cf20599[m
+Merge: a4334d9 18fbdd7
+Author: VishalGotherwal <87850305+VishalGotherwal@users.noreply.github.com>
+Date:   Fri Apr 11 18:10:42 2025 +0530
+
+    Merge pull request #182 from VishalGotherwal/bugfix/karishma/helpers/11-04-2025
+    
+    worked on lead issue
+
+[33mcommit 18fbdd7d88415cf045710ca5837ec8af3c607591[m[33m ([m[1;32mfeature/karishma/quote/12-04-2025[m[33m, [m[1;32mbugfix/karishma/helpers/11-04-2025[m[33m)[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Fri Apr 11 16:48:11 2025 +0530
+
+    updated in helper.js
+
+[33mcommit 6b23a0563d8351a5e71188bd06cdc30fe9e52799[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Fri Apr 11 10:51:12 2025 +0530
+
+    updated
+
+[33mcommit a4334d9a5de2d46322c9d1a0cdd5de8ef7999b8d[m[33m ([m[1;32mbugfix/karishma/helpers/10-04-2025[m[33m)[m
+Author: nehav1808 <neha.v@egnoto.com>
+Date:   Thu Apr 10 17:33:36 2025 +0530
+
+    Initial commit
+
+[33mcommit 0a3bc86daa43206e09cae8d6d42549a46fef9d30[m
+Merge: 895993a aa90b6f
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 18:28:00 2024 +0530
+
+    Merge pull request #180 from VishalGotherwal/feature/vishnu/add-quotes/08-11-24
+    
+    Feature/vishnu/add quotes/08 11 24
+
+[33mcommit aa90b6fd4f89791f006b5dae57b99eb914b7503b[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 18:23:28 2024 +0530
+
+    working on quotes
+
+[33mcommit 4188c0f6f9fd9cc94b6a7570f480ea91af875fa2[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 15:57:06 2024 +0530
+
+    worked till product information get data
+
+[33mcommit 25f0b27a625dfb5398a817e07a41eb7410d04999[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 15:29:53 2024 +0530
+
+    Worked on quote with lead till product information
+
+[33mcommit 895993aebfb0ed5b276c693407f3cba90042214b[m
+Merge: db68885 c0236ef
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 14:51:53 2024 +0530
+
+    Merge pull request #179 from VishalGotherwal/feature/vishnu/add-quotes/08-11-24
+    
+    Feature/vishnu/add quotes/08 11 24
+
+[33mcommit c0236ef11ec6d05484688519fa9b0b5ac587b823[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 14:51:01 2024 +0530
+
+    working on quote with lead Add section
+
+[33mcommit ae1e7057c930ddb34044e1619af2cc7719a995ad[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 14:30:29 2024 +0530
+
+    working on add quate with lead form dynamic and reusability and form change
+
+[33mcommit ba3e9a2e211d9d3d443f00dd9f2c3d6c595fe34c[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 13:15:43 2024 +0530
+
+    working on add quotes
+
+[33mcommit d1f1ba2d9ff8842b1f2922d3abe520fb821fd476[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 11:33:04 2024 +0530
+
+    working on remove unwanted console
+
+[33mcommit d82d13ca29a49d1d0ab38b5aafd042b7a424a746[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Fri Nov 8 11:31:49 2024 +0530
+
+    worked till lead redirect to add quotes till lead will get id edit and view
+
+[33mcommit db68885d803dfcfa4d79ef82c2dcd3ea84511386[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Thu Nov 7 18:37:57 2024 +0530
+
+    fix for to html for
+
+[33mcommit dfcf41fa28829c6cc5ad9af371e35bf376b1dc9e[m
+Merge: 8348096 1dabaec
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Thu Nov 7 18:03:50 2024 +0530
+
+    Merge pull request #178 from VishalGotherwal/feature/vishal/AddQuote/7-11-24
+    
+    add Quote design
+
+[33mcommit 1dabaeca154f7eaa85119de1d819d7e9300f5486[m
+Author: VishalGotherwal <vishal.g@egnoto.com>
+Date:   Thu Nov 7 18:01:53 2024 +0530
+
+    add Quote design
+
+[33mcommit 8348096f3ba0db51fcb99e481a6d2da3ef60cc4b[m
+Merge: 7c337d2 40d42c1
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Wed Nov 6 15:49:11 2024 +0530
+
+    Merge pull request #176 from VishalGotherwal/feature/vishal/AddQuote/05-11-2024
+    
+    Add quote page design
+
+[33mcommit 40d42c1aa3f80db80020d20fb3c45eb367ba3f7f[m
+Author: VishalGotherwal <vishal.g@egnoto.com>
+Date:   Wed Nov 6 15:44:36 2024 +0530
+
+    Add quote page design
+
+[33mcommit 7c337d21fd514821994c0cd628e1cbd3d138f5a4[m
+Merge: 9e6a933 6b16c6f
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Wed Nov 6 15:41:05 2024 +0530
+
+    Merge pull request #174 from VishalGotherwal/feature/vishnu/add-quotes/06-11-2024
+    
+    Feature/vishnu/add quotes/06 11 2024
+
+[33mcommit 6b16c6fda3e821fc235f6802f8e1f1a5a2e04253[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Wed Nov 6 15:36:35 2024 +0530
+
+    removing unwanted console
+
+[33mcommit 4e8640a1223c9039a9981c67a7066d2aa799fe53[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Wed Nov 6 15:35:04 2024 +0530
+
+    working on development
+
+[33mcommit 9e6a933422bdc99dd43e1ba16135f521aa534d45[m
+Merge: f276a25 bebceec
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Tue Nov 5 15:35:46 2024 +0530
+
+    Merge pull request #173 from VishalGotherwal/feature/vishnu/quotes-share-delete/05-11-2024
+    
+    Feature/vishnu/quotes share delete/05 11 2024
+
+[33mcommit bebceecf3758ea3eefc3a3dba488fbd423a6a22a[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Tue Nov 5 15:34:52 2024 +0530
+
+    working on quote delete multi
+
+[33mcommit 277ffa270e3a355468ba2bc921ec93d237bb41e0[m
+Author: vishnupegnoto <vishnu.p@egnoto.com>
+Date:   Tue Nov 5 14:42:54 2024 +0530
+
+    worked till delete Single quote
+
+[33mcommit da9e194cb14ab975827

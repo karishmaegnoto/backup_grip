@@ -1,0 +1,16 @@
+export const MaxLength = {
+  nameLen: 16,
+  businessName: 36,
+  description: 500,
+  amount: 5,
+  pageSize: 20,
+  mobNo: 10,
+  text: 50,
+  zipCode: 6,
+  creditCard: 20,
+  cardHolderName: 32,
+  userName: 32,
+  officePhone: 16,
+  unKnownFields: 250,
+  wLHLength: 9,
+};

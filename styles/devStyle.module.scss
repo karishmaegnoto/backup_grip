@@ -1,0 +1,309 @@
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin-left: 20px;
+}
+.loader_new {
+  border: 4px solid #16a2b9;
+  // border-top: 4px solid #f3f3f3;
+  border-top: 4px solid #12182b;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+.loader_save_new {
+  border: 4px solid #ffffff;
+  // border-top: 4px solid #f3f3f3;
+  border-top: 4px solid #12182b;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+.page_lottie_loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.disabled_fields {
+  cursor: not-allowed;
+  background-color: rgb(249 249 249) !important;
+}
+
+.toastContainer {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  z-index: 100000000 !important;
+}
+
+.resend_otp_btn {
+  background: none;
+  border: none;
+  color: #007bff; // Adjust color to match your design
+  text-decoration: none;
+  cursor: pointer;
+  font-size: inherit; // Keep the same font size as surrounding text
+  padding: 0;
+  font-weight: 600;
+  &:hover {
+    color: #0056b3; // Darker shade on hover
+    text-decoration: none; // Remove underline on hover
+  }
+
+  &:disabled {
+    color: #ccc; // Disabled color
+    cursor: not-allowed;
+    text-decoration: none;
+  }
+}
+.toast {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  max-width: 20rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: #4a5568; // gray-500
+
+  &.green {
+    border: 1px solid #38b2ac;
+    background-color: #e6fffa;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  &.red {
+    background-color: #fed7d7;
+    border: 1px solid #e53e3e;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  &.orange {
+    background-color: #fefcbf;
+    border: 1px solid #d69e2e;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  &.blue {
+    background-color: #ebf8ff;
+    border: 1px solid #3182ce;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  &.dark {
+    background-color: #2d3748; // gray-800
+    color: #a0aec0; // gray-400
+  }
+
+  .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+
+    &.green {
+      background-color: #e6fffa; // green-100
+      color: #38b2ac; // teal-500
+    }
+
+    &.red {
+      background-color: #fed7d7; // red-100
+      color: #e53e3e; // red-500
+    }
+
+    &.orange {
+      background-color: #fefcbf; // yellow-100
+      color: #d69e2e; // yellow-500
+    }
+
+    &.blue {
+      background-color: #ebf8ff; // blue-100
+      color: #3182ce; // blue-500
+    }
+  }
+}
+
+.closeBtn {
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+
+  &:hover {
+    background-color: #e2e8f0; // gray-100
+  }
+
+  &.dark:hover {
+    background-color: #4a5568; // gray-700
+  }
+}
+
+.tel_style {
+  cursor: pointer;
+}
+
+.email_style {
+  cursor: pointer;
+}
+
+//****************** Login Tabs *******************//
+.tab_container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  .tab_button {
+    padding: 0.5rem 1.5rem;
+    font-size: 13px;
+    font-weight: 600;
+    // text-transform: uppercase;
+    border: none;
+    border-radius: 0.5rem;
+    background: #fff;
+    color: #595d6b;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+
+    &:hover {
+      background: #12182b !important;
+      color: #ffffff !important;
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      background: #12182b !important;
+      color: #ffffff !important;
+      transform: translateY(1px);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.activeTabType {
+  background: #12182b !important;
+  color: #ffffff !important;
+}
+
+.already_email {
+  background-color: #efefef !important;
+  cursor: not-allowed;
+}
+//****************** Login Tabs *******************//
+
+//****************** Floating Icon *******************//
+// InstallPWA.module.scss
+
+.installButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  background: linear-gradient(135deg, #16a2b9, #0e6a7e);
+  width: 70px; // Increased size for better accessibility
+  height: 70px; // Increased size for better accessibility
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  color: #fff;
+  z-index: 999;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); // Added shadow for depth
+  &:hover {
+    transform: scale(1.1); // Slight scaling on hover
+  }
+}
+
+.icon {
+  width: 24px; // Consistent icon size
+  height: 24px; // Consistent icon size
+  transition: fill 0.3s ease;
+}
+
+.icon:hover {
+  fill: #ffd700; // Change icon color on hover
+}
+////////MODAL////////////////
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.modalTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.closeButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+////////MODAL////////////////
+.lead_merge_container {
+  position: relative;
+}
+
+.lead_merge_delete_icon {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+}
+//****************** Floating Icon *******************//
+
+.duplicate_merge {
+  background-color: #ffaaaa !important;
+  // cursor: not-allowed !important;
+}
+.read_counter {
+  border-radius: 4px;
+  background: var(--HD-Red-2, #c33f38);
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  height: 20px !important;
+  margin-left: 9px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff !important;
+  padding: 0px 5px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

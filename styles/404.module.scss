@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 15;
+  top: 0;
+  right: 0;
+
+  &.dark {
+    background-color: #1a202c; // dark:bg-gray-900 in Tailwind
+  }
+}
+
+.content {
+  z-index: 10;
+  max-width: 64rem; // max-w-4xl
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.not_found_link {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #49e5fc 0%, #16a2b9 100%);
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.not_found_link:hover {
+  background: linear-gradient(135deg, #7ce5f7 0%, #7ce5f7 100%);
+}
